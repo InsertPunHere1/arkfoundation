@@ -1,0 +1,13 @@
+.contact-container {
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+}
+
+.contact-col {
+    height: 500px;
+    width: 48%;
+    border: black solid 3px;
+    float: left;
+    margin-left: 17px;
+}

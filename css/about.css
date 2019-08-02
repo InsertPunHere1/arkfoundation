@@ -1,0 +1,35 @@
+.about-container {
+    height: 700px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.about-col {
+    height: 700px;
+    width: 30%;
+    border: 3px solid black;
+    float: left;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+
+.about-col-image {
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.about-col-audio {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 5px; 
+}
+
+.about-col-image, .about-col-audio, .about-col audio {
+    margin-top: 25px;
+}
+
+.about-col p {
+    margin: 20px;
+}

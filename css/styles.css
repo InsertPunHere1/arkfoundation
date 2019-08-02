@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-bar {
+    height: 130px;
+    width: 100%;
+    background-color: rgba(151, 151, 151);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.logo {
+    height: 150px;
+}
+.nav-list {
+    float: right;
+}
+.list-item {
+    height: 40px;
+    float: left;
+    margin-right: 40px;
+    list-style-type: none;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000;
+}
+
+.list-item:hover {
+    background-color: white;
+}
+
+.list-item a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;  
+}
+.list-item a:hover {
+    color: #000;
+}
+
+.hero {
+    background-image: url(../images/circuit.jpg);
+    height: 500px;
+    background-size: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+.div {
+    display: block;
+}
+
+.hero-content {
+    background-color: rgb(151, 151, 151);
+    height: 100px;
+    width: 300px;
+    margin-top: 0px;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.home-content {
+    height: 700px;
+    width: 100%;
+}
+
+.content-text {
+    padding: 50px;
+}
+
+.content-img {
+    height: 700px;
+    width: 1373px;
+    border: solid 3px black;
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 20px; 
+}
+
+.footer-col {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.submit, .social {
+    display: block;
+    margin-top: 15px;
+}
+
+.fab {
+    font-size: 30px;
+    color: black;
+    margin-left: 10px; 
+}
+
+.copy {
+    display: block;
+}
