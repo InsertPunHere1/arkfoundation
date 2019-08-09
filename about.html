@@ -20,26 +20,91 @@
                 <li class="list-item"><a href="index.html">Home</a></li>
                 <li class="list-item"><a href="about.html">About</a></li>
                 <li class="list-item"><a href="contact.html">Contact</a></li>
-                <li class="list-item"><a href="ominous.html">E̢̕͜͢͢R̨͜͜R҉͡҉O͏̵̸͢R̵̶̴̷͟</a></li>
+                <!-- <li class="list-item"><a href="ominous.html">E̢̕͜͢͢R̨͜͜R҉͡҉O͏̵̸͢R̵̶̴̷͟</a></li> -->
             </ul>
         </nav>
     </header>
-
     <section class="about-container">
         <div class="about-col">
+            <h1>"Building the future"</h1>
+                <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img class="pic smartphone" src="images/smartphone.jpg" alt="smartphone" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="pic robot" src="images/robot.jpg" alt="robot" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="pic camera" src="images/security camera.jpg" alt="security camera" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="pic laptop" src="images/laptop.jpg" alt="laptop" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="pic tablet" src="images/tablet.jpg" alt="tablet" style="width:100%">
+                        </div> 
+                        <div class="mySlides fade">
+                            <img class="pic drone" src="images/drone.jpg" alt="drone" style="width:100%">
+                        </div> 
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="dot" oneclick="currentSlide(1)"></span>
+                        <span class="dot" oneclick="currentSlide(2)"></span>
+                        <span class="dot" oneclick="currentSlide(3)"></span> 
+                        <span class="dot" oneclick="currentSlide(4)"></span>
+                        <span class="dot" oneclick="currentSlide(5)"></span>      
+                        <span class="dot" oneclick="currentSlide(6)"></span>
+                    </div>
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                            
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                              var i;
+                              var slides = document.getElementsByClassName("mySlides");
+                              var dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++) {
+                                  slides[i].style.display = "none";  
+                              }
+                              for (i = 0; i < dots.length; i++) {
+                                  dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                        }
+                     </script>           
+            <p>
+                The ARK Foundation is an organization dedicated to scientific innovation and human progress. As the world's leading scientific power, we have provided countless contributions toward technological advancement.
+            </p>
+        </div>
+        <div class="about-col">
+            <h1>"The new Einstein"</h1>
             <img class="about-col-image" src="images/ARK Founder.jpg" alt="John Doe">
-            <p>Our founder, John Doe, believed that our world was at turning point, and that the only way stay afloat in this new world would be to scientificly advance as fast as humanly possible, and then even faster. He establised The ARK Foundation in 20XX in order fufill this vision. While </p>
+            <p>
+                Alexander Fox believed that our civilization was at a crisis point, and the only solution would be through Science and technology.  in 2003, at the young age of 24, he created the ARK Foundation in order to fulfill his vision of scientific advancement and set out to change the world. Fox quickly found success with the Aether Battery, which harnessed the power of nuclear energy, in a safe, and portable device.  This lead to the creation of the very first ARK Phone.  We cannot begin to list the number of groundbreaking inventions that Fox personally designed, but there aren’t many humans on the planet that aren’t using some type of ARK device.  Tragically, just four years after creating the company that would change the world, Alexander Fox left his laboratory one ordinary night and never returned.  
+            </p>
         </div>
         <div class="about-col">
-            <audio class="about-col-audio" src="audio/Imagine Dragons - Natural.mp3" controls></audio>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque ab quae omnis quam facilis doloribus, suscipit quasi, vitae voluptate ex aspernatur inventore, mollitia eius veniam velit possimus cumque ad</p>
-        </div>
-        <div class="about-col">
-            <iframe width="100%" height="300" src="https://www.youtube.com/embed/2pEh9bZEtwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam veniam distinctio. Beatae quibusdam quod aperiam nihil debitis laborum tempore quo ex architecto quisquam iusto eum quas, quae voluptas corporis?</p>
+            <h1>"Changing the world"</h1>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EjAJn5kNinw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p> 
+                The ARK Foundation's contributions
+            </p>
         </div>
     </section>
-
     <footer class="footer">
             <div class="footer-col submit">
                 <input />

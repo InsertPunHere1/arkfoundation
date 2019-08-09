@@ -13,6 +13,7 @@ body {
 .logo {
     height: 150px;
 }
+
 .nav-list {
     float: right;
 }
@@ -63,21 +64,35 @@ body {
 }
 
 .home-content {
-    height: 700px;
+    height: 100%;
     width: 100%;
 }
 
 .content-text {
     padding: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
-.content-img {
-    height: 700px;
+.product-list {
+    height: 400px;
     width: 1373px;
     border: solid 3px black;
     margin: 0 auto;
-    padding: 50px;
-    margin-left: 20px; 
+    padding: 25px;
+}
+
+.arkdevice {
+    height: 400px;
+    border: solid 3px black;
+}
+
+.caption {
+    display: inline;
+    position: relative;
+    top: -50%;
+    left: 100px;
+    font-size: 50px;
 }
 
 .footer-col {
