@@ -69,9 +69,17 @@ body {
 }
 
 .content-text {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     font-size: 30px;
+}
+
+.video {
+    height: 100%;
+    width: 700px;
+    position: relative;
+    left: 27%;
+    margin-bottom: 30px;
 }
 
 .product-list {

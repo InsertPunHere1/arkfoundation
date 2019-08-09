@@ -2,7 +2,7 @@
 img {vertical-align: middle;}
 
 .slideshow-container {
-    max-width: 458.75px;
+    max-width: 675px;
     position: relative;
     margin: auto;
 }
@@ -87,7 +87,7 @@ h1 {
 
 .about-col {
     height: 750px;
-    width: 458.75px;
+    width: 700px;
     border: 3px solid black;
     float: left;
     margin-left: 33px;
@@ -96,7 +96,7 @@ h1 {
 
 .about-col-image {
     margin-top: 25px;
-    height: 300px;
+    height: 450px;
     display: block;
     margin: auto;
 }
